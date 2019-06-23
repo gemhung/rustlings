@@ -7,8 +7,17 @@ pub fn bigger(a: i32, b:i32) -> i32 {
     // - another function call
     // - additional variables
     // Scroll down for hints.
-}
 
+    //if (a > b){
+    //    a
+   // }
+    //else {
+    //    b
+   // }
+
+    if a > b {a} else {b}
+}
+ 
 // Don't mind this for now :)
 #[cfg(test)]
 mod tests {

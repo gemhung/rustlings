@@ -2,8 +2,8 @@
 // Make me compile! Scroll down for hints :)
 
 fn main() {
-    let x: i32;
-    println!("Number {}", x);
+    let x: i32 = 10;
+     println!("Number {}", x) ;
 }
 
 

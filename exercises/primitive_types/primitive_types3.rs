@@ -3,7 +3,10 @@
 // Scroll down for hints!
 
 fn main() {
-    let a = ???
+    let a = ["are we there yet"; 9];
+
+    for i in &a
+        {println!("len = {}", i);}
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
