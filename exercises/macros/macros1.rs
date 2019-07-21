@@ -1,6 +1,7 @@
 // macros1.rs
 // Make me compile! Scroll down for hints :)
 
+#[macro_use]
 macro_rules! my_macro {
     () => {
         println!("Check out my macro!");
@@ -8,7 +9,8 @@ macro_rules! my_macro {
 }
 
 fn main() {
-    my_macro();
+    #[macro_use]
+    my_macro!();
 }
 
 
